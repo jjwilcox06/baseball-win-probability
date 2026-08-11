@@ -31,4 +31,15 @@ Pulled directly from the MLB Stats API via [`baseballr`](https://billpetti.githu
 
 ![Calibration plot](output/win-probability-calibration.png)
 
-All three models are
+All three models are well-calibrated across the full probability range, with some localized differences between models in the 0.55 to 0.70 predicted-probability band.
+
+## Next steps
+
+- Scale up to a full season (or multiple seasons)
+- Add pitcher/batter quality and ballpark features
+- Build a live win-probability chart for a single game
+- Benchmark against FanGraphs' published win probabilities as an external sanity check
+
+## Tools
+
+R, tidymodels, XGBoost, baseballr
