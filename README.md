@@ -29,6 +29,6 @@ Pulled directly from the MLB Stats API via [`baseballr`](https://billpetti.githu
 | Logistic regression (+ interaction) | 0.4375 |
 | XGBoost | 0.4348 |
 
-![Calibration plot](output/calibration_plot.png)
+![Calibration plot](output/win-probability-calibration.png)
 
 All three models are
