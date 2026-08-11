@@ -38,7 +38,6 @@ All three models are well-calibrated across the full probability range, with som
 - Scale up to a full season (or multiple seasons)
 - Add pitcher/batter quality and ballpark features
 - Build a live win-probability chart for a single game
-- Benchmark against FanGraphs' published win probabilities as an external sanity check
 
 ## Tools
 
